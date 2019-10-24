@@ -1,0 +1,7 @@
+p, ul, table{
+    font-family: sans-serif;
+    font-size: 500px;
+}
+p::first-letter{
+    font-size: 200%
+}

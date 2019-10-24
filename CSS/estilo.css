@@ -1,0 +1,149 @@
+body { /*001*/
+    font: 400 15px Tahoma, sans-serif;
+    line-height: 1.8;
+    color: dimgrey;
+    background-color: white;
+}
+
+header { /*001*/
+    overflow: hidden;
+    background-color: aqua;
+    padding: 20px 10px;
+    text-align: center
+}
+
+
+header a { /*002*/
+    float: left;
+    color: white;
+    text-align: left;
+    background-color: black;
+    padding: 12px;
+    text-decoration: inherit;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    margin: 3px;
+}
+
+header a:hover { /*012*/
+    background-color: beige;
+    color: black;
+}
+
+section, article{ /*001*/
+    text-align: justify;
+    margin: 25px;
+}
+
+
+article { /*001*/
+    border-style: groove;
+    border-color: red;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: justify;
+    margin: 25px;
+}
+
+table,
+th,
+td { /*001*/
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+
+}
+
+table { /*001*/
+    width: 100%;
+}
+
+td { /*001*/
+    vertical-align: middle;
+    padding: 10px;
+
+}
+
+dl, dd { /*001*/
+    background-color: aquamarine;
+    padding: 5px;
+    color: black;
+    border-radius: 15px;
+
+}
+
+dt { /*001*/
+    background-color: cornflowerblue;
+    text-decoration: underline;
+    font-size: 110%;
+}
+
+dl, dt { /*001*/
+    padding: 5px;
+    margin-left: 35px;
+}
+
+dd{ /*001*/
+    font-style: italic;
+}
+
+
+a:link { /*011*/
+    color: blue;
+}
+
+a:visited { /*011*/
+    color: aqua;
+}
+
+a:hover { /*011*/
+    color: rebeccapurple;
+}
+
+a:active { /*011*/
+    color: brown;
+}
+
+img { /*001*/
+    float: left;
+    margin: 10px;
+}
+
+#img1{ /*100*/
+    float: none;
+    align-content: center;
+}
+
+video { /*001*/
+    float: left;
+    margin: 10px;
+}
+
+audio { /*001*/
+    float: left;
+    margin: 10px;
+}
+
+
+footer { /*001*/
+    align-items: center;
+    border-style: dashed;
+    border-color: aqua;
+    padding: 50px 20px;
+    margin: 25px;
+}
+
+
+h1 { /*001*/
+    background-color: red;
+    color: aqua;
+    text-transform: uppercase;
+    padding: 50px 10px;
+    text-align: center;
+}
+
+h2, h3, h4, h5, h6 { /*001*/
+    color: black;
+}
